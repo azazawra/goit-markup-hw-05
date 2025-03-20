@@ -515,3 +515,9 @@ list-style: none;
 .icon-section-footer {
     fill:  #f4f4fd
 }
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+}

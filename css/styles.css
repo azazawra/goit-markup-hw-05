@@ -565,21 +565,51 @@ list-style: none;
     position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
     border: none;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    fill: #e7e9fc;
 }
 
 .close-icon {
-    stroke: black;
-    width: 16px;
-    height: 16px;
+    position: relative;
+    fill: black;
+    width: 8px;
+    height: 8px;
+    z-index: 10;
 }
+
+.modal-close-btn::before {
+    content:"";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color:#e7e9fc ;
+    border-radius: 100%;
+    border: 1px solid #8e8f99
+    )}
 
 .modal-close-btn:hover .close-icon {
     border-radius: 100%;
     fill: #e7e9fc;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
+}
+
+.modal-title{
+    margin-top: 74px;
+   
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
 }
 
 .modal-fild {

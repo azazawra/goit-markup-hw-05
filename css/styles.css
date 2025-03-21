@@ -624,7 +624,11 @@ list-style: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 24px;
+    position: absolute;
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
 }
 
 .modal-close-btn {
@@ -640,6 +644,10 @@ list-style: none;
     justify-content: center;
  
     fill: #e7e9fc;
+}
+
+..modal-close-btn:hover {
+
 }
 
 .close-icon {
@@ -668,15 +676,15 @@ list-style: none;
 }
 
 .modal-title{
-    margin-top: 74px;
-   
+  
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-}
+        margin-bottom: 16px;
+        }
 
 .modal-fild {
     position: relative;
@@ -694,9 +702,7 @@ list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
-    position: absolute;
-}
+        }
 
 <label class="modal-lable" for="Name"><svg width="18 hight=24" class="name-icon"><use href="./images/icons.svg#icon-name"></use></svg></label>.name-icon {
     width: 18px;
@@ -729,7 +735,7 @@ list-style: none;
 }
 
 .modal-wrapper {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .modal-textarea {

@@ -794,8 +794,17 @@ list-style: none;
     
 }
 .custom-checkbox-input {
+}
 
-display:inline-flex;
+.custom-icon {
+    border-radius: 2px;
+        fill: #404bbf;
+        border: 1px solid rgba(46, 47, 66, 0.4);;
+        width: 16px;
+            height: 16px;
+}
+
+display:inline-flex;{
 width: 16px;
 height: 16px;
 border: 1px solid white;

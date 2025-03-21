@@ -757,7 +757,8 @@ list-style: none;
 
 .modal-submit-btn {
     border-radius: 4px;
-    position: absolute;
+  display: block;
+  margin:0 auto ;
     width: 169px;
     height: 56px;
     bottom: 24px;
@@ -794,11 +795,15 @@ list-style: none;
     
 }
 .custom-checkbox-input {
-    border-radius: 4px;
-    fill: #404bbf;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    width: 16px;
+display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid gray;
     height: 16px;
+    width: 16px;
+    margin-top: 5px;
+    margin-right: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 

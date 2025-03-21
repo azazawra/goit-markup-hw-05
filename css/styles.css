@@ -606,6 +606,7 @@ list-style: none;
     pointer-events: none;
     z-index: 99999;
     transition: opacity;
+    cubic-bezier(0.4, 0, 0.2 1);
 }
 
 .backdrop.is-open {
@@ -646,9 +647,8 @@ list-style: none;
     fill: #e7e9fc;
 }
 
-..modal-close-btn:hover {
 
-}
+
 
 .close-icon {
     position: relative;
@@ -664,8 +664,8 @@ list-style: none;
     width: 24px;
     height: 24px;
     background-color:#e7e9fc ;
-    border-radius: 100%;
-    border: 1px solid #8e8f99
+    border-radius: 100% ;
+    border: 1px solid #8e8f99;
     )}
 
 .modal-close-btn:hover .close-icon {
@@ -793,7 +793,7 @@ list-style: none;
         color: #4d5ae5;
     
 }
-.custon-checkbox-input {
+.custom-checkbox-input {
 
 display:inline-flex;
 width: 16px;
@@ -808,7 +808,9 @@ fill: transparent;
 }
 .checkbox-input:checked + .modal-lable-accept > .custon-checkbox-input {
     background-color: #4d5ae5;
-fill:#fff;
-border: none;
+background-color:#4D5AE5 ;
+border: 1px solid #4d5ae5;
+fill:none;
+
 }
-}
+

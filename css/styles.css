@@ -774,12 +774,41 @@ list-style: none;
 
 .modal-lable-accept {
     font-weight: 400;
+     font-size: 12px;
+     line-height: 1.16667;
+     letter-spacing: 0.04em;
+     color: #8e8f99;
+
+}
+.privacy-link{
+    text-decoration: underline;
+    font-weight: 400;
         font-size: 12px;
         line-height: 1.16667;
         letter-spacing: 0.04em;
         color: #8e8f99;
+        line-height: 1.33333;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4d5ae5;
+    
+}
+.custon-checkbox-input {
+
+display:inline-flex;
+width: 16px;
+height: 16px;
+border: 1px solid white;
+border-radius: 4px;
+fill: transparent;
 }
 
 .checkbox-input {
     visibility: hidden;
+}
+.checkbox-input:checked + .modal-lable-accept > .custon-checkbox-input {
+    background-color: #4d5ae5;
+fill:#fff;
+border: none;
+}
 }

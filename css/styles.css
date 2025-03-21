@@ -794,6 +794,8 @@ list-style: none;
         color: #4d5ae5;
     
 }
+
+
 .custom-checkbox-input {
 display: inline-flex;
     border-radius: 2px;
@@ -811,7 +813,7 @@ display: inline-flex;
 .checkbox-input {
     visibility: hidden;
 }
-.checkbox-input:checked + .modal-lable-accept > .custon-checkbox-input {
+.checkbox-input:checked + .modal-lable-accept > .custom-checkbox-input {
     background-color: #4d5ae5;
 background-color:#4D5AE5 ;
 border: 1px solid #4d5ae5;

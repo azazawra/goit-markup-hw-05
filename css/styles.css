@@ -527,7 +527,7 @@ list-style: none;
 /*--------------------------------------*/
 
 .footer-rightcontainer {
-   gap: 16px;
+   margin-left: 80px;
     }
 
 .footer-subsr-text {

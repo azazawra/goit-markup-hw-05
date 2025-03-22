@@ -806,7 +806,7 @@ border-color: #4D5AE5;
     color: #fff;
 }
 
-.modal-lable-accept {
+.modal-lable-privacy {
     font-weight: 400;
      font-size: 12px;
      letter-spacing: 0.04em;
@@ -850,7 +850,7 @@ display: inline-flex;
 .checkbox-input {
     visibility: hidden;
 }
-.checkbox-input:checked + .modal-lable-accept > .custom-checkbox-input {
+.checkbox-input:checked + .modal-lable-privacy > .custom-checkbox-input {
     background-color: #4d5ae5;
 background-color:#4D5AE5 ;
 border: 1px solid #4d5ae5;

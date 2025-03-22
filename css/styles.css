@@ -665,16 +665,16 @@ border: none;
 }
 
 
-.close-icon {
-    position: relative;
-    fill: black;
-    width: 8px;
-    height: 8px;
-    z-index: 10;
-}
+
+
 
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+        fill: black;
+        width: 8px;
+        height: 8px;
+        z-index: 10;
 }
 
 .modal-close-btn::before {
@@ -772,12 +772,15 @@ border: none;
 }
 
 .modal-textarea {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     resize: none;
     border-radius: 4px; 
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
     height: 120px;
-    color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

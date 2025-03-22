@@ -708,6 +708,7 @@ border: none;
 .modal-fild {
     position: relative;
     margin-bottom: 16px
+    
 }
 
 .modal-icon {
@@ -725,9 +726,14 @@ border: none;
     left: 16px;
         }
 
+.modal-icon:focus {
+    fill: #4D5AE5;
+}
+
 .name-icon {
     width: 18px;
     height: 18px;
+
 }
 
 .modal-lable {
@@ -761,7 +767,8 @@ border: none;
 }
 
 .modal-wrapper {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
+   
 }
 
 .modal-textarea {

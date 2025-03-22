@@ -683,10 +683,10 @@ list-style: none;
     border: none;
         }
 .modal-close-icon:focus {
-fill: #FFFFFF
+fill: #FFFFFF;
 }
 .modal-close-icon:hover {
-    fill: #FFFFFF
+    fill: #FFFFFF;
 }
 .modal-close-btn:hover {
     background-color: #404bbf;

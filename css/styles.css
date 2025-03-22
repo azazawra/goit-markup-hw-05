@@ -678,20 +678,23 @@ list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-close-btn:focus {
+.modal-close-btn:hover  {
     background-color: #404bbf;
     border: none;
         }
-.modal-close-icon:focus {
+
+        
+.modal-close-icon:hover {
 fill: #FFFFFF;
 }
-.modal-close-icon:hover {
+.modal-close-btn:focus {
+    background-color: #404bbf;
+    border: none; 
+    outline: none; 
+          }
+.modal-close-icon:focus {
     fill: #FFFFFF;
 }
-.modal-close-btn:hover {
-    background-color: #404bbf;
-    border: none;  
-          }
 
 
 .modal-title{
@@ -761,12 +764,15 @@ outline: nome;
 .modal-input:hover {
     outline: nome;
     border-color: #4D5AE5;
-}
-.modal-icon:hover {   
+    fill: #4D5AE5;
+    }
+
+.modal-input:hover ~ .modal-icon {   
 fill: #4D5AE5;}
 
-.modal-icon :focus {
-    fill: #4D5AE5; }
+.modal-input:focus ~ .modal-icon {
+    fill: #4D5AE5;
+}
 
 
 .modal-wrapper {

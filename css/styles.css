@@ -680,17 +680,17 @@ list-style: none;
     background-color: #404bbf;
     border: none;
         }
-        
-.modal-close-icon:hover {
-fill: #FFFFFF;
-}
 .modal-close-btn:focus {
     background-color: #404bbf;
-    border: none; 
-    outline: none; 
-          }
-.modal-close-icon:focus {
-    fill: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.modal-close-btn:hover  .modal-close-icon {
+fill: #FFFFFF;
+}
+.modal-close-btn:focus  .modal-close-icon {
+fill: #FFFFFF;
 }
 
 
@@ -877,7 +877,7 @@ display: inline-flex;
 .checkbox-input {
     visibility: hidden;
 }
-.checkbox-input:checked + .modal-lable-privacy  .custom-checkbox-input {
+.checkbox-input:checked + .modal-lable-privacy > .custom-checkbox-input {
 background-color: #4d5ae5;
 border: 1px solid #4d5ae5;
 fill:#F4F4FD;

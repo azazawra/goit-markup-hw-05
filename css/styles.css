@@ -878,7 +878,7 @@ display: inline-flex;
     visibility: hidden;
 }
 .checkbox-input:checked + .modal-lable-privacy > .custom-checkbox-input {
-background-color: #4d5ae5;
+background-color: #404bbf;
 border: 1px solid #4d5ae5;
 fill:#F4F4FD;
 border: none;

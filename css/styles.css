@@ -686,9 +686,9 @@ list-style: none;
     border-radius: 100% ;
     border: 1px solid #8e8f99;
     }
-.modal-close-btn:focus{
+.modal-close-btn:focus .modal-close-icon{
         fill: #FFFFFF }
-.modal-close-btn:hover {
+.modal-close-btn:hover .modal-close-icon {
      fill: #FFFFFF
                 }
 
@@ -726,15 +726,6 @@ list-style: none;
     left: 16px;
         }
 
-.modal-icon:focus {
-    fill: #4D5AE5;
-}
-
-.name-icon {
-    width: 18px;
-    height: 18px;
-
-}
 
 .modal-lable {
     display: block;
@@ -760,11 +751,22 @@ list-style: none;
 
 }
 
-.modal-input:focus {
-    fill: #4D5AE5;
+
+.modal-input:focus{
+outline: nome;
+    border-color: #4D5AE5;
+}
+
+.modal-input:hover {
     outline: nome;
     border-color: #4D5AE5;
 }
+.modal-icon:hover {   
+fill: #4D5AE5;}
+
+.modal-icon :focus {
+    fill: #4D5AE5; }
+
 
 .modal-wrapper {
     margin-bottom: 8px;
